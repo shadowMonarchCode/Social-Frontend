@@ -37,7 +37,7 @@ const Register = () => {
         </div>
         <div className="actions">
           <button>Change Method</button>
-          <button type="submit">Create Account</button>
+          <button type="submit">Sign Up</button>
         </div>
       </form>
 

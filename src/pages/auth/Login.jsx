@@ -25,7 +25,7 @@ const Login = () => {
         </div>
         <div className="actions">
           <button>Change Method</button>
-          <button type="submit">Create Account</button>
+          <button type="submit">Login</button>
         </div>
       </form>
 
