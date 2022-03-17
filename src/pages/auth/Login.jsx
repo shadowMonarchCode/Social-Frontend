@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../../components/layout/Header";
 import "./styles.scss";
 
@@ -9,7 +10,7 @@ const Login = () => {
       <h4>Welcome Back!</h4>
       <h1>Login into your account</h1>
       <h4>
-        Not yet registered? <a>Register</a>
+        Not yet registered? <Link to="/register">Register</Link>
       </h4>
       <form action="">
         <div className="input">
